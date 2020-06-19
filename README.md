@@ -35,6 +35,11 @@ python srt.py output_file_from_transcribe.json
 |srt.py | Takes the JSON response from AWS Transcribe and converts to a captions.srt file |
 |vtt.py | Takes the JSON response from AWS Transcribe and converts to a captions.vtt file |
 
+## `srt.py` usage
+```bash
+srt.py input_file output_file source_language
+```
+
 
 ## License Summary
 
